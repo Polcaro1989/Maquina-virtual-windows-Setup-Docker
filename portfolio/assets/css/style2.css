@@ -1,0 +1,12 @@
+.color-1 {
+    background-color: #26296e;
+}
+
+.slide {
+    margin-top: -10%;
+}
+
+.error-message {
+    color: red;
+    font-size: 15px;
+}

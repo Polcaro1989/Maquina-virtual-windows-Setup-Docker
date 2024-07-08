@@ -1,0 +1,48 @@
+.marquee_animi {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #219d7c;
+    /* Cor de fundo de sua escolha */
+    font-size: 16px;
+    /* Tamanho de fonte desejado em pixels */
+    color: #fff;
+    /* Cor do texto de sua escolha */
+    text-align: center;
+    /* Centraliza o texto horizontalmente */
+    display: flex;
+    /* Ativa flexbox para centralizar verticalmente */
+    align-items: center;
+    /* Centraliza o texto verticalmente */
+    text-rendering: optimizeLegibility;
+    /* Melhora a legibilidade da fonte */
+    -webkit-font-smoothing: antialiased;
+    /* Suavização no Chrome/Safari */
+    -moz-osx-font-smoothing: grayscale;
+    /* Suavização no Firefox (macOS) */
+}
+
+.marquee_animi ul {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 25s linear infinite;
+}
+
+.marquee_animi li {
+    display: inline-block;
+    padding: 0 1em;
+    font-size: 1.2em;
+    /* Tamanho de fonte de sua escolha */
+    color: #fff;
+    /* Cor do texto de sua escolha */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

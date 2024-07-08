@@ -1,0 +1,6 @@
+  <footer class="footer footer-static footer-bg-overlay navbar-border navbar-shadow">
+    <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+      <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2023 <a class="text-bold-800 grey darken-2" href="" target="_blank">D&L construções </a>, Todos os direitos reservados. </span>
+      <span class="float-md-right d-block d-md-inline-blockd-none d-lg-block">Construindo sonhos <i class="ft-heart pink"></i></span>
+    </p>
+  </footer>

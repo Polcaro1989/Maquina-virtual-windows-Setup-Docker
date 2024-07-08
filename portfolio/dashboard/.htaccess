@@ -1,0 +1,51 @@
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteRule    ^dashboard/?$    index.php    [NC,L]
+RewriteRule    ^login/?$    login.php    [NC,L]
+RewriteRule    ^register/([A-Za-z0-9-]+)/?$    register.php?ref=$1    [NC,L]
+RewriteRule    ^logout/?$    logout.php    [NC,L]
+
+RewriteRule    ^profile/?$    profile.php    [NC,L]
+
+RewriteRule    ^adicionar-portfolio/?$    adicionar-portfolio.php    [NC,L]
+RewriteRule    ^adicionar-sobre/?$    adicionar-sobre.php    [NC,L]
+RewriteRule    ^adicionar-servico/?$    adicionar-servico.php    [NC,L]
+RewriteRule    ^adicionar-curso/?$    adicionar-curso.php    [NC,L]
+RewriteRule    ^adicionar-rede-social/?$    adicionar-rede-social.php    [NC,L]
+RewriteRule    ^adicionar-quemsomos/?$    adicionar-quemsomos.php    [NC,L]
+RewriteRule    ^mensagensformulario/?$    mensagens-formulario.php    [NC,L]
+RewriteRule    ^testemunha-lista/?$    testemunha-listar.php    [NC,L]
+RewriteRule    ^editportfolio/([A-Za-z0-9-]+)/?$    editport.php?id=$1    [NC,L]
+RewriteRule    ^editservice/([A-Za-z0-9-]+)/?$    editservice.php?id=$1    [NC,L]
+RewriteRule    ^editar-cursos/([A-Za-z0-9-]+)/?$    editar-cursos.php?id=$1    [NC,L]
+RewriteRule    ^editwhy/([A-Za-z0-9-]+)/?$    edit-why.php?id=$1    [NC,L]
+RewriteRule    ^portfolio-listar/?$    portfolio-listar.php    [NC,L]
+RewriteRule    ^pagina-inicial/?$    pagina-inical.php    [NC,L]
+RewriteRule    ^adicionar-usuario/?$    adicionar-usuario.php    [NC,L]
+
+RewriteRule    ^secao-titulos/?$    secao-titulos.php    [NC,L]
+RewriteRule    ^servicos-listar/?$    servicos-listar.php    [NC,L]
+RewriteRule    ^cursos-listar/?$    listar-cursos.php    [NC,L]
+RewriteRule    ^site-configuracoes/?$    site-configuracoes.php    [NC,L]
+RewriteRule    ^rede-social-listar/?$    rede-social-listar.php    [NC,L]
+
+RewriteRule    ^quem-somos-listar/?$    quem-somos-listar.php    [NC,L]
+RewriteRule    ^atualizar-logo/?$    atualizar-logo.php    [NC,L]
+
+RewriteRule    ^adicionar-blog/?$    adicionar-blog.php    [NC,L]
+RewriteRule    ^blog-listar/?$    blog-listar.php    [NC,L]
+
+RewriteRule    ^adicionar-video/?$    adicionar-video.php    [NC,L]
+RewriteRule    ^video-listar/?$    video-listar.php    [NC,L]
+RewriteRule    ^static/?$    static-home.php    [NC,L]
+RewriteRule    ^atualizar-contato/?$    atualizar-contato.php    [NC,L]
+
+RewriteRule    ^testimony/?$    testimonylist.php    [NC,L]
+RewriteRule    ^adicionar-testemunha/?$    adicionar-testemunha.php    [NC,L]
+RewriteRule    ^banner-listar/?$    banner-listar.php    [NC,L]
+RewriteRule    ^adicionar-banner/?$    adicionar-banner.php    [NC,L]
+RewriteRule    ^adicionar-curriculo/?$    adicionar-curriculo.php    [NC,L]
+RewriteRule    ^editar-curriculo/([A-Za-z0-9-]+)/?$    editar-curriculo.php?id=$1    [NC,L]
+RewriteRule    ^curriculo-listar/([A-Za-z0-9-]+)/?$    curriculo-listar.php?id=$1    [NC,L]
+RewriteRule    ^adicionar-logo/?$    adicionar-logo.php    [NC,L]
+RewriteRule    ^logo-listar/([A-Za-z0-9-]+)/?$    logo-listar.php?id=$1    [NC,L]
