@@ -1,13 +1,11 @@
-# Sistema CMS Vogue pronto para uso em containers Docker.  
+# Sistema maquina virtual WINDOWS pronto para uso em containers Docker.  
   
-![Takatsu's Projects](https://wesleytakatsu.github.io/Pagina-Apresentacao-Pessoal/media/img/Logo-Takatsu-Projetos.png)
+<img src="https://github.com/abraao69/abraao69/blob/main/Navy%20Blue%20Geometric%20Technology%20LinkedIn%20Banner%20(2).png" alt="Logo">
   
 
-## CRÉDITOS AO AUTOR DO SISTEMA CMS VOGUE:  
-https://www.sourcecodester.com/php/15517/company-website-cms-php.html  
-  
-### O sistema é antigo e já foi descontinuado. Aconselho usar apenas para fins pessoais.
-  
+## CRÉDITOS AO AUTOR DO SISTEMA Vm Docker Windows:  
+abraao695@gmail.com  
+    
   
 ## O servidor está configurado com muitos complementos sendo grande parte deles desnecessários.  
 Retire-os conforme quiser personalizar sua instalação no arquivo dockerfile.  
@@ -16,52 +14,60 @@ Além disso, esse projeto é bom para personalizar para outros projetos Web tamb
 
 ## Comandos:
 Iniciar:  
+```
 docker-compose up -d  
+```
   
 Parar:  
+```
 docker-compose down  
+```
 
 Fazer o build dos containers analizando a construção:  
+```
 docker-compose up --build  
-  
-
-## Use a mesma configuração no OpenCart que você usou no .env para o banco de dados  
-A princípio é essa configuração: 
-Endereço: localhost   
-SGBD: MySQL  
-Banco: opencartbrasil  
-User: root  
-Senha: root  
-  
+  ```
   
 
 ### Instalação de algumas dependências
+```
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
     curl \
     gnupg \
     lsb-release
-  
+  ```
 
 ### 
 ### Instalação do Docker
+```
+
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+```
+```
 
 echo \
   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
 $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-
+```
+```
 sudo apt-get update
-
+```
+```
 sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
 
 Depois de instalado e configurado rode o Docker:
+```
 sudo service docker start
+```
 
 Testar se o serviço Docker está rodando corretamente:
+```
 sudo docker run hello-world  
+```
 
 
 ##
